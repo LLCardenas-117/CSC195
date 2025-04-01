@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
     cout << "Hello, World!";
+    cout << "Git is now tracking this project!";
     return 0;
 }
 
