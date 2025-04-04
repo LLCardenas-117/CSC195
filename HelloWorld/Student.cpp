@@ -2,7 +2,7 @@
 #include <iostream>
 
 void f() {
-	std::cout << "helllo\n";
+	std::cout << "hello\n";
 };
 
 void Student::Write() {
