@@ -5,6 +5,10 @@ void f() {
 	std::cout << "hello\n";
 };
 
+void Student::Read()
+{
+}
+
 void Student::Write() {
 	std::cout << m_name << std::endl;
 }
