@@ -1,4 +1,5 @@
 #include "Human.h"
+#include "Console.h"
 
 int Human::_count = 0;
 const float Human::_tax = 0.0025f;
@@ -16,9 +17,12 @@ void Human::Read()
     std::cout << "------Human------\n";
 
     std::cout << "\nEnter Name: ";
-    std::cin >> _name;
+    //std::cin >> _name;
+    _name = getData<std::string>();
     std::cout << "Enter Age: ";
-    std::cin >> _age;
+    _age = getData<age_t>();
+
+    //_age = getInt();
 }
 
 void Human::Write()

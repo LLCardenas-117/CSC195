@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d21a1bad-f63e-4faa-ad36-4c2615dff341}</ProjectGuid>
-    <RootNamespace>OOP</RootNamespace>
+    <ProjectGuid>{62da4790-b3df-413b-8df2-5c780af02086}</ProjectGuid>
+    <RootNamespace>Classes</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,19 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Console.cpp" />
-    <ClCompile Include="Human.cpp" />
-    <ClCompile Include="OOP.cpp" />
-    <ClCompile Include="Professor.cpp" />
-    <ClCompile Include="School.cpp" />
-    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Classes.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Console.h" />
-    <ClInclude Include="Human.h" />
-    <ClInclude Include="Professor.h" />
-    <ClInclude Include="School.h" />
-    <ClInclude Include="Student.h" />
+    <ClInclude Include="VideoGames.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

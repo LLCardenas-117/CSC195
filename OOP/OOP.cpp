@@ -42,7 +42,7 @@ int main()
             break;
         }
 
-        school.Add(Human::Type::STUDENT);
+        //school.Add(Human::Type::STUDENT);
         school.DisplayAll();
 
     }
