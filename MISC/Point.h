@@ -34,6 +34,13 @@ namespace cordMath {
 			return ostream;
 		}
 
+		friend std::istream& operator >> (std::istream& istream, Point<T>& p) {
+			istream >> p._x;
+			istream >> p._y;
+
+			return istream;
+		}
+
 		T GetX() const { return _x; };
 		T GetY() const { return _y; };
 
